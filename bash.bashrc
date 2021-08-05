@@ -23,8 +23,9 @@ alias unit="clear && php vendor/phpunit/phpunit/phpunit"
 alias unitf="clear && php vendor/phpunit/phpunit/phpunit --filter "
 
 #NPM
-alias ni='npm install'
-alias nrs='npm run serve'
+alias ni="npm install"
+alias nrd="npm run dev"
+alias nrs="npm run serve"
 
 #GIT
 alias g="git"
@@ -33,7 +34,15 @@ alias gs="git status"
 alias gp="git push"
 alias gpo="git push origin "
 alias gpull="git pull"
+alias gpullo="git pull origin "
 alias glog="git log --oneline --graph --decorate --all"
-alias gbranch="git branch"
-alias gadd="git add ."
-alias gcom="git commit -m "
+alias gbranches="git branch -a"
+alias ga="git add ."
+alias gc="git commit -m "
+alias stash="git stash"
+alias pop="git statsh pop"
+alias stashlist="git stash list"
+
+
+
+
