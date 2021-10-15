@@ -1,6 +1,10 @@
 #General
 alias c="clear"
 
+#Composer
+alias ci="composer install"
+alias cu="composer update"
+
 #PHP Artisan 
 alias pa="php artisan"
 alias pas="php artisan serve"
@@ -29,6 +33,7 @@ alias nrs="npm run serve"
 
 #GIT
 alias g="git"
+alias gcl="git clone "
 alias gi="git init"
 alias gs="git status"
 alias gp="git push"
@@ -42,7 +47,4 @@ alias gc="git commit -m "
 alias stash="git stash"
 alias pop="git statsh pop"
 alias stashlist="git stash list"
-
-
-
 
