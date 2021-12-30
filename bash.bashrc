@@ -2,6 +2,7 @@
 alias c="clear"
 
 #Composer
+alias cr="composer require "
 alias ci="composer install"
 alias cu="composer update"
 
@@ -27,9 +28,10 @@ alias unit="clear && php vendor/phpunit/phpunit/phpunit"
 alias unitf="clear && php vendor/phpunit/phpunit/phpunit --filter "
 
 #NPM
-alias ni="npm install"
+alias ni="npm install "
 alias nrd="npm run dev"
 alias nrs="npm run serve"
+alias nrw="npm run watch"
 
 #GIT
 alias g="git"
